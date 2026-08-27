@@ -8,7 +8,6 @@
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -18,8 +17,7 @@
 Thumbs.db
 
 # Environment
-.env
-.env.*
+temp_auto_push.bat
 !.env.example
 
 # Ignore generated root files and temporary outputs
@@ -39,3 +37,6 @@ dist/
 lcov.info
 coverage/
 **/test_snapshots/
+.gitignore
+branch_structure.json
+config.bat
